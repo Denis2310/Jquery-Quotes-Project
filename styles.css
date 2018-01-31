@@ -1,0 +1,71 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper{
+	position: relative;
+	top: 150px;
+	width: 500px;
+	height: auto;
+	border: 1px solid white;
+	border-radius: 2px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#header{
+	text-align: center;
+}
+
+#quotes{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: gray;
+}
+
+.quote{
+	font-family: Impact;
+}
+
+.quote-autor{
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+#footer{
+	position: relative;
+	text-align: right;
+	padding-right: 2px;
+	padding-bottom: 2px;
+}
+
+button{
+	border: none;
+	height: 40px;
+	width: 82px;
+	border-radius: 1px;
+	color: white;
+	font-weight: bold;
+}
+
+button#previous{
+	background-color: lightgray;
+}
+
+button:hover{
+	opacity: .8;
+}
+
+#tweet{
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 0.9em;
+}
+
